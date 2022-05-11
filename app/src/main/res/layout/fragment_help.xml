@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartFragment"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/statusBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="17sp"
+        android:textColor="#302f2f"
+        android:text="  About Us"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#fca000"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#302f2f"
+        android:layout_margin="10dp"
+        android:text="  Contacts"
+        android:drawableRight="@drawable/navigate_next_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#302f2f"
+        android:text="  Settings"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#fca000"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:text="     Push Notifications"
+        android:textColor="#302f2f" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView223"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#302f2f"
+        android:layout_margin="10dp"
+        android:text="  Language" />
+    <TextView
+        android:id="@+id/textView222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/DeviderColor"
+        android:text="  English"
+        android:drawableRight="@drawable/navigate_next_24"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView283"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#302f2f"
+            android:layout_margin="10dp"
+            android:text="  Country" />
+        <TextView
+            android:id="@+id/textView226"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:paddingEnd="5dp"
+            android:textStyle="bold"
+            android:text="  Kenya" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#fca000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Leave feedback ."
+        android:layout_gravity="center"
+        android:textColor="@color/statusBar"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/ic_baseline_message_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Rate us"
+        android:layout_gravity="center"
+        android:textColor="@color/statusBar"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/ic_baseline_star_rate_24"/>
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/linearLayouttop"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@drawable/background_gradient"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="300sp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/search"
+                    android:paddingStart="10dp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="43dp"
+                android:scrollbars="none"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayouttop"
+                tools:layout_editor_absoluteX="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:id="@+id/Scrll"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:fillViewport="true"
+                        android:measureAllChildren="false"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="130sp"
+                            android:layout_marginTop="15sp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="170sp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5sp"
+                                android:background="@drawable/diiscount"
+                                android:text="UP TO 50% OFF DISCOUNT"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="170sp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5sp"
+                                android:background="@drawable/delivery"
+                                android:text="FAST DELIVERY"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="170sp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5sp"
+                                android:background="@drawable/meatt"
+                                android:text="FRESH AND CLEAN"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                    <View
+                        android:id="@+id/divider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2sp"
+                        android:layout_marginTop="15sp"
+                        android:background="#fca000"
+                        android:backgroundTint="#fca000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/searchView"
+                        app:layout_constraintVertical_bias="0.015"
+                        tools:layout_editor_absoluteX="-41dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/DeviderColor"
+                        android:text="Meals"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="3sp"
+                        android:background="?android:attr/listDivider"
+                        android:backgroundTint="#fca000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/searchView"
+                        app:layout_constraintVertical_bias="0.015"
+                        tools:layout_editor_absoluteX="-41dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/home_hor_rec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"/>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryFragment"
+    android:orientation="vertical">
+
+            <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/statusBar">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="17sp"
+                android:textColor="#302f2f"
+                android:text="  Meals"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fca000"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:text="  Breakfast"
+                android:textColor="#302f2f"
+                android:drawableRight="@drawable/navigate_next_24" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Dinner" />
+                <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                android:drawableRight="@drawable/navigate_next_24"
+                android:text="  Lunch Meas" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/navigate_next_24"
+                android:layout_margin="10dp"
+                android:textColor="#302f2f"
+                android:text="  Snacks" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="17sp"
+                android:textColor="#302f2f"
+                android:text="  Drinks"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Soft Drinks" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Beer" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Wines" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Spirits" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textSize="17sp"
+                    android:textColor="#302f2f"
+                    android:text="  Vendors"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2sp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#fca000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Jikom Pizza Inn" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Almara Restaurant" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Bob Wines and Spirits" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Kelechi Restaurant" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Mwingi Break and Eat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Kelly Inn" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Boss Butari Restaurant" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "730182733139",
+    "project_id": "klikkat-shop-food-online",
+    "storage_bucket": "klikkat-shop-food-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730182733139:android:e89fcc377ddfe6c188a5a6",
+        "android_client_info": {
+          "package_name": "com.alphonce.klikkat_shopfoodonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730182733139-e5djhoguc9eoei6sj5mbcc7q0uao0m67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alphonce.klikkat_shopfoodonline",
+            "certificate_hash": "0f2e9673b5ca5987a17330b96e92d4b3400ced82"
+          }
+        },
+        {
+          "client_id": "730182733139-6tl9oa2p1hsahet5kskhm8dnptmfu9od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsJoJrkxVvjqQGk1TmckG0e4Ke6EiQqEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730182733139-6tl9oa2p1hsahet5kskhm8dnptmfu9od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
