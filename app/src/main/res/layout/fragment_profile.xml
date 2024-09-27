@@ -47,7 +47,7 @@
                         android:layout_width="250dp"
                         android:id="@+id/signit"
                         android:layout_height="wrap_content"
-                        android:text="Sign In"
+                        android:text="Ondigo Alphonce"
                         android:padding="5dp"
                         android:textSize="25dp"
                         android:textStyle="bold"
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pending orders:_"
+            android:text="Pending orders: 0"
             android:textStyle="bold"
             android:textSize="15dp"
             android:textColor="#4118a1"
@@ -148,7 +148,7 @@
             android:drawableLeft="@drawable/personac"
             android:drawableRight="@drawable/navigate_next_24"
             android:layout_margin="10dp"
-            android:text="  Details" />
+            android:text="  Details"/>
 
         <TextView
             android:id="@+id/textView12"

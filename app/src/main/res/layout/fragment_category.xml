@@ -28,102 +28,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:paddingTop="10dp"
-                android:textSize="17sp"
-                android:textColor="#302f2f"
-                android:text="  Meals"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2sp"
-                android:background="?android:attr/listDivider"
-                android:backgroundTint="#fca000"/>
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_margin="10dp"
-                android:text="  Breakfast"
-                android:textColor="#302f2f"
-                android:drawableRight="@drawable/navigate_next_24" />
-
-                <TextView
-                    android:id="@+id/textView88"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableRight="@drawable/navigate_next_24"
-                    android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                    android:text="  Dinner" />
-                <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                android:drawableRight="@drawable/navigate_next_24"
-                android:text="  Lunch Meas" />
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableRight="@drawable/navigate_next_24"
-                android:layout_margin="10dp"
-                android:textColor="#302f2f"
-                android:text="  Snacks" />
-
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:paddingTop="10dp"
-                android:textSize="17sp"
-                android:textColor="#302f2f"
-                android:text="  Drinks"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2sp"
-                android:background="?android:attr/listDivider"
-                android:backgroundTint="#fca000"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:drawableRight="@drawable/navigate_next_24"
-                    android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                    android:text="  Soft Drinks" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableRight="@drawable/navigate_next_24"
-                    android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                    android:text="  Beer" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableRight="@drawable/navigate_next_24"
-                    android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                    android:text="  Wines" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableRight="@drawable/navigate_next_24"
-                    android:layout_margin="10dp"
-                    android:textColor="#302f2f"
-                    android:text="  Spirits" />
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -131,10 +35,10 @@
                     android:paddingTop="10dp"
                     android:textSize="17sp"
                     android:textColor="#302f2f"
-                    android:text="  Vendors"/>
+                    android:text="  Fast Food"/>
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="2sp"
+                    android:layout_height="4sp"
                     android:background="?android:attr/listDivider"
                     android:backgroundTint="#fca000"/>
 
@@ -145,7 +49,7 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Jikom Pizza Inn" />
+                    android:text="  Pizza" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -153,7 +57,7 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Almara Restaurant" />
+                    android:text="  Burgers" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -161,7 +65,7 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Bob Wines and Spirits" />
+                    android:text="  Fries" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -169,7 +73,7 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Kelechi Restaurant" />
+                    android:text="  Hot Dogs" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -177,7 +81,8 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Mwingi Break and Eat" />
+                    android:text="  Fried Chicken" />
+
 
                 <TextView
                     android:layout_width="match_parent"
@@ -185,14 +90,322 @@
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Kelly Inn" />
+                    android:text="  Shawarma" />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="17sp"
+                android:textColor="#302f2f"
+                android:text="@string/local_kenyan_cuisine"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4sp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fca000"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:text="  Nyama"
+                android:textColor="#302f2f"
+                android:drawableRight="@drawable/navigate_next_24" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Ugali" />
+                <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                android:drawableRight="@drawable/navigate_next_24"
+                android:text="  Fish" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/navigate_next_24"
+                android:layout_margin="10dp"
+                android:textColor="#302f2f"
+                android:text="  Chapati" />
+
+                <TextView
+                    android:id="@+id/Githeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Githeri" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:textSize="17sp"
+                android:textColor="#302f2f"
+                android:text="  Swahili Cuisine"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4sp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Pilau" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableRight="@drawable/navigate_next_24"
                     android:layout_margin="10dp"
                     android:textColor="#302f2f"
-                    android:text="  Boss Butari Restaurant" />
+                    android:text="  Biriyani" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Mahamri" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Samosa" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textSize="17sp"
+                    android:textColor="#302f2f"
+                    android:text="  Grill and BBQ"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4sp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Grilled Chicken" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Steak" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Pork" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Sausages" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Nyama Choma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textSize="17sp"
+                    android:textColor="#302f2f"
+                    android:text="  Vegetarian and Vegan"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4sp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Vegetable Stews" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Lentil Dishes" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Salads" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Bean Dishes" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Grain Bowls" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textSize="17sp"
+                    android:textColor="#302f2f"
+                    android:text="  Bakery and Desserts"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4sp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Mandazi" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Cakes" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Pastries" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Doughnuts" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Ice Creams" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Fruit Salad" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textSize="17sp"
+                    android:textColor="#302f2f"
+                    android:text="  Drinks and Beverages"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4sp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#fca000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Soft Drinks" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Fresh Juices" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Smoothies" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Tea" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Coffee" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/navigate_next_24"
+                    android:layout_margin="10dp"
+                    android:textColor="#302f2f"
+                    android:text="  Alcohol Beverages" />
+
 
             </LinearLayout>
         </ScrollView>
